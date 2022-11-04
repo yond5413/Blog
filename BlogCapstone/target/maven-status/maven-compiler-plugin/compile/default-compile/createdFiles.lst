@@ -1,0 +1,12 @@
+com\mthree\blog\TestApplicationConfiguration.class
+com\mthree\blog\dao\BlogDAO.class
+com\mthree\blog\BlogApp.class
+com\mthree\blog\entities\User.class
+com\mthree\blog\service\BlogServiceLayer.class
+com\mthree\blog\entities\Post.class
+com\mthree\blog\dao\BlogDAOImpl.class
+com\mthree\blog\entities\Category.class
+com\mthree\blog\dao\BlogDAOImpl$PostMapper.class
+com\mthree\blog\controller\BlogController.class
+com\mthree\blog\dao\BlogDAOImpl$CategoryMapper.class
+com\mthree\blog\dao\BlogDAOImpl$UserMapper.class

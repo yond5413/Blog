@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: blog.dao.BlogDAOImplTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 9.157 s <<< FAILURE! - in blog.dao.BlogDAOImplTest
+testGetPostById(blog.dao.BlogDAOImplTest)  Time elapsed: 1.968 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at blog.dao.BlogDAOImplTest.testGetPostById(BlogDAOImplTest.java:77)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at blog.dao.BlogDAOImplTest.testGetPostById(BlogDAOImplTest.java:77)
+
+testAddPost(blog.dao.BlogDAOImplTest)  Time elapsed: 1.029 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at blog.dao.BlogDAOImplTest.testAddPost(BlogDAOImplTest.java:90)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at blog.dao.BlogDAOImplTest.testAddPost(BlogDAOImplTest.java:90)
+
+testGetAllCategories(blog.dao.BlogDAOImplTest)  Time elapsed: 1.516 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at blog.dao.BlogDAOImplTest.testGetAllCategories(BlogDAOImplTest.java:59)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at blog.dao.BlogDAOImplTest.testGetAllCategories(BlogDAOImplTest.java:59)
+
+testGetAllPosts(blog.dao.BlogDAOImplTest)  Time elapsed: 0.512 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at blog.dao.BlogDAOImplTest.testGetAllPosts(BlogDAOImplTest.java:68)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at blog.dao.BlogDAOImplTest.testGetAllPosts(BlogDAOImplTest.java:68)
+

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mthree.blog.dao.BlogDAOImplTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.949 s - in com.mthree.blog.dao.BlogDAOImplTest
